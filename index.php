@@ -23,6 +23,7 @@ if (!empty($_SESSION['_contact_form_success'])) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="imagens/favicon.svg" type="image/x-svg">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/responsividade.css">
   <script src="https://kit.fontawesome.com/dbd07a4d89.js" crossorigin="anonymous"></script>
