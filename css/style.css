@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;  
+}
+
+html {
+  
+  background-color: #f0f0f5;
+}
+
+p.success {
+  font-weight: 600;
+  color: #218838;
+  text-align: center;
+}
+p.error {
+  font-weight: 600;
+  color: #D44439;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+header h1 {
+  margin: 12px 0 12px 0;
+  color: #322153;
+}
+
+header p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.cabecalho {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 180px;
+  
+}
+
+#page-form {
+  background-color: white;
+  margin: 80px auto;
+  margin-top: 340px;
+  border-radius: 8px;
+  width: 500px;
+  padding-bottom: 4px;
+  margin-bottom: 32px
+}
+
+form .field-group {
+  display: flex;  
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+form .field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;  
+}
+
+form label {
+  font-size: 15px;
+  margin-left: 4px;
+  margin-bottom: 8px; 
+}
+
+form input {
+  background-color: #f0f0f5;
+  border: 0;
+  margin: 0 10px 0 4px;
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+form textarea {
+  border: 0;
+  font-size: 16px;
+  margin: 0 10px 0 4px;
+  background-color: #f0f0f5;
+  border-radius: 8px;
+}
+
+form button:hover {
+  background-color: #2fb86e;
+}
+
+form button {
+  width: 150px;
+  height: 48px;
+  background-color: #34cb69;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  float: center;
+  border: 0;  
+  transition: 400ms;
+  margin-bottom: 12px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contatos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+#contatos span a {
+  text-decoration: none;
+  width: 0;
+  height: 0;
+  display: inline-block;
+  margin: 10px 16px 16px 16px;
+}
+
+#contatos p {
+  font-size: 24px;
+}
+
+#contatos span {
+  text-align: center;
+}
+
+#contatos img {
+  width: 24px;
+  height: 24px;
+}
