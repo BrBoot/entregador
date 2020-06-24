@@ -11,3 +11,5 @@ https://github.com/InfinityFreeHosting/contactform
 
 Link de onde tirei as imagens da redes sociais:
 https://www.flaticon.com
+
+Dito isso, sei que ainda falta algumas coisas como melhorar a responsividade mais aos poucos vou implementando.
